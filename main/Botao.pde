@@ -1,16 +1,3 @@
-//EXEMPLO MAIN
-Botao b;
-
-void setup() {
-  fullScreen();
-  b = new Botao("Ola", "Adeus", color(100,100,255));
-}
-
-void draw() {
-  background(255);
-  b.show();
-}
-
 //CLASS
 
 class Botao{
